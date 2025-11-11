@@ -18,6 +18,9 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 400, y: groundY },
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "reward", x: 1000, y: 550 },
+          { type: "enemy", x:1500, y: 550 },
+          { type: "gameEndMarker", x:1000, y: 550 },
         ],
       },
       {
@@ -28,8 +31,25 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 400, y: groundY },
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "reward", x: 1000, y: 550 },
+          { type: "enemy", x: 1500, y: 550 },
+          { type: "gameEndMarker", x: 1000, y: 550 }, 
         ],
       },
+      {
+        name: "Robot Vengeance",
+        number: 3,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+          { type: "reward", x: 1000, y: 550 },
+          { type: "enemy", x: 1500, y: 550 },
+          { type: "gameEndMarker", x:1000, y: 550 },
+
+        ]
+      }
     ];
     window.opspark.levelData = levelData;
   };
