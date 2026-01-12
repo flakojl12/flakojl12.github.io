@@ -19,8 +19,8 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
           { type: "reward", x: 1000, y: 550 },
-          { type: "enemy", x:1500, y: 550 },
-          { type: "gameEndMarker", x:1000, y: 550 },
+          { type: "enemy", x: 1500, y: 550 },
+          { type: "gameEndMarker", x: 1000, y: 550 },
         ],
       },
       {
